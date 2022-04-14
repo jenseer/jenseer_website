@@ -1,0 +1,206 @@
+a{
+    text-decoration:none;
+  }
+  .floating_btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    z-index: 1000;
+  }
+  
+  @keyframes pulsing {
+    to {
+      box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
+    }
+  }
+  
+  .contact_icon {
+    background-color: #42db87;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    font-size:30px;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translatey(0px);
+    animation: pulse 1.5s infinite;
+    box-shadow: 0 0 0 0 #42db87;
+    -webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    font-weight: normal;
+    font-family: sans-serif;
+    text-decoration: none !important;
+    transition: all 300ms ease-in-out;
+  }
+  
+  
+  .text_icon {
+    margin-top: 8px;
+    color: #707070;
+    font-size: 13px;
+  }
+  .social-con
+  {
+      font-size:16px
+  }
+ 
+  
+  @media (min-width: 1024px) {
+  .clients {
+      grid-template-columns: auto auto auto auto; }
+      
+  .clients img {
+    height: 4rem; }}
+  
+  /* --- Images (gray logo) --- */
+  .clients img {
+    -webkit-filter: grayscale(100%) brightness(10%) contrast(10%);
+            filter: grayscale(100%) brightness(10%) contrast(10%); }
+  
+  .clients img:hover {
+    background: none;
+    -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out; }
+  .mobileShow {display: none;}
+  /* Smartphone Portrait and Landscape */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){ 
+  .mobileShow {display: inline;}
+  .mobileShow1 {display: none;}
+  .mobileShow ul li
+  {
+    list-style: none !important;
+      margin-bottom: 5px;
+  }
+  .mobileShow ul li a.active {
+  color: #df0e62;
+}
+.mobileShow ul li a {
+  display: block;
+  padding: 4px 0;
+  color: black;
+  text-transform: uppercase;
+  font-size: .8rem;
+}
+.mobileShow ul.social li a {
+  padding: 10px;
+}
+.mobileShow ul.social li {
+  display: inline-block;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+   .mobileShow {display: inline;}
+  .mobileShow1 {display: none;}
+  .mobileShow ul li
+  {
+    list-style: none !important;
+      margin-bottom: 5px;
+  }
+  .mobileShow ul li a.active {
+  color: #df0e62;
+}
+.mobileShow ul li a {
+  display: block;
+  padding: 4px 0;
+  color: black;
+  text-transform: uppercase;
+  font-size: .8rem;
+}
+.mobileShow ul.social li a {
+  padding: 10px;
+}
+.mobileShow ul.social li {
+  display: inline-block;
+}
+}
+@media only screen and (min-width:600px) and (max-width: 960px)  {
+   .mobileShow {display: inline;}
+  .mobileShow1 {display: none;}
+  .mobileShow ul li
+  {
+    list-style: none !important;
+      margin-bottom: 5px;
+  }
+  .mobileShow ul li a.active {
+  color: #df0e62;
+}
+.mobileShow ul li a {
+  display: block;
+  padding: 4px 0;
+  color: black;
+  text-transform: uppercase;
+  font-size: .8rem;
+}
+.mobileShow ul.social li a {
+  padding: 10px;
+}
+.mobileShow ul.social li {
+  display: inline-block;
+}
+}
+@media only screen and (min-width:540px) and (max-width: 720px)  {
+   .mobileShow {display: inline;}
+  .mobileShow1 {display: none;}
+  .mobileShow ul li
+  {
+    list-style: none !important;
+      margin-bottom: 5px;
+  }
+  .mobileShow ul li a.active {
+  color: #df0e62;
+}
+.mobileShow ul li a {
+  display: block;
+  padding: 4px 0;
+  color: black;
+  text-transform: uppercase;
+  font-size: .8rem;
+}
+.mobileShow ul.social li a {
+  padding: 10px;
+}
+.mobileShow ul.social li {
+  display: inline-block;
+}
+}
+@media only screen and (min-width:280px) and (max-width: 653px)  {
+   .mobileShow {display: inline;}
+  .mobileShow1 {display: none;}
+  .mobileShow ul li
+  {
+    list-style: none !important;
+      margin-bottom: 5px;
+  }
+  .mobileShow ul li a.active {
+  color: #df0e62;
+}
+.mobileShow ul li a {
+  display: block;
+  padding: 4px 0;
+  color: black;
+  text-transform: uppercase;
+  font-size: .8rem;
+}
+.mobileShow ul.social li a {
+  padding: 10px;
+}
+.mobileShow ul.social li {
+  display: inline-block;
+}
+}
